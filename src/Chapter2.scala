@@ -9,7 +9,7 @@ object Chapter2{
         if(i < 1) 0
         else if(i == 1) p
         else if (i == 2) c
-        else fib_inter(n-1,c, p+c)
+        else fib_inter(i-1,c, p+c)
       }
 
       fib_inter(n,0,1)
